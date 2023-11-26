@@ -1,9 +1,9 @@
 // app/api/img/route.ts
 export async function GET(request: Request) {
     return new Response(JSON.stringify({
-      name: "Biden Trump",
-      symbol: "BIDEN",
-      description: "BIDEN represent a unique blend of internet culture and digital finance",
+      name: "Baby Ponk",
+      symbol: "PONK",
+      description: "BABYPONK represent a unique blend of internet culture and digital finance",
       image: "https://dataapi-f8d3b.web.app/konk.jpg"
     }), {
       headers: {
